@@ -1,0 +1,16 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-800 p-4;
+}
+
+textarea, input, select, button {
+  @apply border rounded px-3 py-2 w-full;
+}
+
+button {
+  @apply font-semibold;
+}
